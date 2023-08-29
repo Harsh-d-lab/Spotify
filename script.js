@@ -77,6 +77,7 @@ Array.from(document.getElementsByClassName('songItemPlay')).forEach((element)=>{
     })
 })
 
+//Next button
 document.getElementById('next').addEventListener('click', ()=>{
     if(songIndex>=9){
         songIndex = 0
@@ -93,6 +94,7 @@ document.getElementById('next').addEventListener('click', ()=>{
 
 })
 
+//Previous button
 document.getElementById('previous').addEventListener('click', ()=>{
     if(songIndex<=0){
         songIndex = 0
